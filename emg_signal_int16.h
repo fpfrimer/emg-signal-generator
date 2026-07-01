@@ -2,7 +2,7 @@
 // Taxa: 1000 Hz
 // Duração: 3.0 s
 // Amostras: 3000
-// Amplitude: ±1.0 V (ajustar atenuador)
+// Saída DAC: ±1.0 V (ajustar atenuador externo)
 // Banda: 20-450 Hz
 // Formato: int16 (little-endian)
 
