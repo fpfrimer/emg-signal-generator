@@ -46,6 +46,18 @@ Edite as variáveis no topo do `gerar_emg.py`:
 | `n_hold` | 800 | Amostras de sustentação |
 | `n_ramp_down` | 600 | Amostras de relaxamento |
 
+## Documentação
+
+A documentação detalhada da metodologia está em [`doc/metodologia.md`](doc/metodologia.md),
+incluindo:
+
+- Fundamentos fisiológicos do EMG
+- Modelo matemático do sinal (ruído Gaussiano filtrado)
+- Especificação do filtro Butterworth 20–450 Hz
+- Modelo de envelope de contração (recrutamento de unidades motoras)
+- Validação e limitações do modelo
+- Referências bibliográficas (De Luca, Farina, Henneman, SENIAM, etc.)
+
 ## Dependências
 
 - Python 3
